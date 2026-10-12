@@ -1,0 +1,7 @@
+# 不要把 host OS 編譯產物帶進 Linux container。
+mini_http_server
+*.dSYM/
+
+# Git metadata 不需要放進 image。
+.git/
+.gitignore
